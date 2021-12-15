@@ -17,6 +17,7 @@ public class ArrayExample {
       for (String i : cars) {
         System.out.println(i);
       }
+      //
 
       //multidementional array
       int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
