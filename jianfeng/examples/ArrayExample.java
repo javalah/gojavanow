@@ -13,11 +13,11 @@ public class ArrayExample {
     for (int i = 0; i < cars.length; i++) {
       System.out.println("cars[" + i + "] = " + cars[i]);
     }
-    // loop array by each, haha
-    // This is a very good code
+    // loop array by each
     for (String i : cars) {
       System.out.println(i);
     }
+    //
 
     // multidementional array
     int[][] myNumbers = { { 1, 2, 3, 4 }, { 5, 6, 7 } };
