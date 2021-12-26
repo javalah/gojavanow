@@ -64,11 +64,23 @@ public class MyMather {
     // int startvalue = 4;
     for (int i = v1; i <= v2; i++) {
       if (i % 1 == 0) {
-        sum = sum + i;
+        sum = sum + i;}
         // System.out.println(sum);
-
-      }
+      else{System.out.println("this is impossible");}}
+return sum;
+      
     }
-    return sum;
+    public int sumEven2(int startValue, int endValue) {
+      int sum = 0;
+      // int startvalue = 4;
+      for (int i = startValue; i <= endValue; i++) {
+        if (i % 2 == 1) {
+          sum = sum + i;
+          // System.out.println(sum);
+        }
+      }
+      return sum; 
+
   }
 }
+  
