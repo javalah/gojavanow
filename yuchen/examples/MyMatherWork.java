@@ -9,22 +9,21 @@ public class MyMatherWork {
     System.out.println("the sum of all even numbers from 1 to 100 =" + sum);
 
     //new mather
-    MyMather m = new MyMather(1, 1000);
+    MyMather m = new MyMather(1, 100);
 
     // sum odd
     System.out.println("sum odd now!");
     //MyMather p = new MyMather(4, 5);
 
     sum = m.sumOdd();
-    System.out.println("the sum of all odd numbers from 1 to 1000 =" + sum);
+    System.out.println("the sum of all odd numbers from 1 to 100 =" + sum);
 
     // sum all
     System.out.println("sum all now!");
     //MyMather v = new MyMather(4, 5);
 
     sum = m.sumAll();
-    System.out.println("the sum of every number from 1 to 1000=" + sum);
-
+    System.out.println("the sum of every number from 1 to 100 =" + sum);
   }
 
   public static int sumEven(int startValue, int endValue) {

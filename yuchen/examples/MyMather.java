@@ -35,7 +35,15 @@ public class MyMather {
   }
 
   public int sumEven(int startValue, int endValue) {
-    return 0;
+    int sum = 0;
+    // int startvalue = 4;
+    for (int i = v1; i <= v2; i++) {
+      if (i % 2 == 0) {
+        sum = sum + i;
+        // System.out.println(sum);
+      }
+    }
+    return sum;
   }
 
   public int sumAll(int startValue, int endValue) {
